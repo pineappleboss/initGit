@@ -1,2 +1,29 @@
 项目文件根路径
 git init
+
+git上创建仓库
+
+设置用户
+
+git config --global user.email "374725192@qq.com"
+
+关联远程仓库
+
+git remote add origin https://github.com/pineappleboss/initGit.git
+
+如果需要新建其他分支（可选，不创建直接上传master）
+
+git branch -dev
+
+管理远程分支
+
+git push --set-upstream origin dev
+
+提交代码
+
+git add .
+
+git commit /
+
+git push
+
